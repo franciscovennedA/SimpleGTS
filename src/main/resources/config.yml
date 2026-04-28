@@ -1,0 +1,25 @@
+time-default: 24 #hours
+
+economy: CMI # CMI / VAULT
+currency: "coins"
+
+
+messages:
+  item-added-prefix: "§c§l(!) §a%player% added a "
+  item-added-suffix: " §a%amount%x §ato the market for the price of 阿%price%. §7(/gts)"
+  purchase-confirm-title: "Confirm purchase"
+  purchase-cancelled: "§cPurchase canceled."
+  purchase-success-pokemon: "§aPurchase completed, Pokémon added to your PC."
+  purchase-success-item: "§aPurchase completed, item added to your inventory."
+  purchase-message-owner: "§a§l(!) §eYour item has been sold to %player% by %money%"
+  purchase-message-owner-pokemon: "§a§l(!) §eYour pokemon %pokemon% has been sold to %player% by %money%"
+  already-purchased: "§c§l(!) §aThat item has already been purchased"
+  not-enough-funds: "§cYou don't have enough funds."
+  pokemon-added-global: "§c§l(!) §a%player% added a new Pokémon %pokemon% to the market for 阿 %price%. §7(/gts)"
+  item-added-success: "§a¡Item successfully added to the global market!"
+  pokemon-added-deny: "§aError no save pokemon"
+  pokemon-added-success: "§a¡Pokémon successfully saved in the global market!"
+  item-slot-empty: "§cThere is no item in that hotbar slot.."
+  invalid-slot: "§cThe slot must be between 1 and 9 (hotbar)."
+  invalid-number: "§cEl slot y el precio deben ser números."
+  unknown-subcommand: "§cSubcomando desconocido. Usa 'pokemon' o 'item'."

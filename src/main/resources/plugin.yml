@@ -1,0 +1,7 @@
+name: SimpleGTS
+version: '${project.version}'
+main: com.venned.simplegts.Main
+api-version: '1.21'
+commands:
+  gts:
+    description: Main Command
